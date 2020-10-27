@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/hotdog/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
+# Inherit GApps
+$(call inherit-product, vendor/google/gms/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xtended_hotdog
 PRODUCT_DEVICE := hotdog
