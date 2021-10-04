@@ -22,5 +22,12 @@
 <resources>
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
+    
+    <!-- Color of the FOD view -->
+    <color name="config_fodColor">#ccccac</color>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">6</integer>
+    <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
 
 </resources>
