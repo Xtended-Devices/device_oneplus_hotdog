@@ -16,6 +16,9 @@ AB_OTA_PARTITIONS += \
     system_ext \
     vbmeta_system
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := OnePlus7TPro,hotdog
+
 # Display
 TARGET_SCREEN_DENSITY := 560
 
